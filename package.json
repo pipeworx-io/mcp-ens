@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ens",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ENS (Ethereum Name Service) MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-3a6c528691a92ff98a52dd553fd021140c0e94dd3324b8a901450df6fa7c09ec",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-0056095b645a5779da26ea8ed020af330be1eae9b515e3234247f30a630673bd",
+    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
   }
 }
