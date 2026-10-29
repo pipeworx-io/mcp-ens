@@ -1,0 +1,34 @@
+[
+  {
+    "name": "resolve_ens",
+    "description": "Resolve an ENS name (e.g. \"vitalik.eth\") to its Ethereum address and profile records (avatar, description, socials: twitter/github/discord/email/url). Keyless.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "An ENS name, e.g. \"nick.eth\"."
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  },
+  {
+    "name": "reverse_ens",
+    "description": "Reverse-resolve an Ethereum address (0x…) to its primary ENS name and profile records. Keyless.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "address": {
+          "type": "string",
+          "description": "An Ethereum address, e.g. \"0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045\"."
+        }
+      },
+      "required": [
+        "address"
+      ]
+    }
+  }
+]
